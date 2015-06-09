@@ -1,0 +1,56 @@
+1) How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Fill in your answer here
+	>It helped to find the code which was changed from the working version to the non-working version
+
+2) How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Fill in your answer here
+	>If the code goes wrong then working code can be retrived by accessing the entire history of the file
+	
+3) What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Fill in your answer here
+	>Pros: one commit for one logical change in code
+		   less number of commits which makes debugging easier
+	>Cons: programmer has to decide when to commit, he cud be wrong at sometime
+			Eg: commiting very late or too soon
+			
+4) Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Fill in your answer here
+	>Git is specially for saving different versions of files used for developing a program/app or project
+	>So different files may be interrelated to one another or need to be tracked together.
+    	Eg: a file may contain a function which is defined in another file
+	>Thus,Git allow saving multiple files in one commit as different files may be affected if change is made
+		in one file.
+		
+	>Google Docs, on the other hand, doesnot have interrelated files so it treats each file separately
+	
+
+5) How can you use the commands git log and git diff to view the history of files?
+
+    Fill in your answer here
+	>git log --stat is used to view which files are changed displaying the commit id and other insertion and deletion info
+	>git log is used to view which files are changed displaying the commit id and o
+	>git diff is used to compare two different commits displaying the details of codes changed in the particular commit
+	
+
+	
+6) How might using version control make you more confident to make changes that
+could break something?
+
+    Fill in your answer here
+	>Version control helps to makes changes and debug the project in long term running of the project where manual debugging is
+	almost impossible as after many years the developer may forgot the code himself so a version control where different commits are made
+    plays important role.
+	
+	>With git we can explore the code at low level and make significant changes without the fear of breaking the code.
+	
+	>It helps to explore deep architectural concept within the program and rethink the entire code base.
+	
